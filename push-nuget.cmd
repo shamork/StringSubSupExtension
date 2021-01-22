@@ -1,0 +1,1 @@
+nuget push ".\bin\Release\Shamork.Util.StringSubSupExtension.1.0.0.nupkg" -Source "https://nuget.org"
