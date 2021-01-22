@@ -10,8 +10,8 @@ nuget package ```Shamork.Util.StringSubSupExtension```
 dotnet add package Shamork.Util.StringSubSupExtension --version 1.0.0
 ```
 ```
-var sup=StringSubSupExtension.ToSubcripts("101");//¹⁰¹
-var sub=StringSubSupExtension.ToSubcripts("101");//₁₀₁
+var sup=StringSubSupExtension.ToSubcripts("-101");//⁻¹⁰⁰
+var sub=StringSubSupExtension.ToSubcripts("-101");//₋₁₀₀
 ```
 
 # subscripts
