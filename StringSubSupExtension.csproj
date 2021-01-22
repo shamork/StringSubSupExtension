@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard1.6</TargetFramework>
+        <AssemblyName>Shamork.Util.StringSubSupExtension</AssemblyName>
+        <RootNamespace>Shamork.Util</RootNamespace>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Convert string to subscripts or superscripts</Title>
+        <Description>Convert string to subscripts or superscripts</Description>
+        <Copyright>shamork</Copyright>
+        <PackageProjectUrl>https://github.com/shamork/StringSubSupExtension.git</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/shamork/StringSubSupExtension.git</RepositoryUrl>
+        <RepositoryType>github</RepositoryType>
+        <PackageTags>subscripts;superscripts</PackageTags>
+        <PackageReleaseNotes>thanks to https://github.com/lynn9388/supsub</PackageReleaseNotes>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.Memory" Version="4.5.4" />
+    </ItemGroup>
+
+</Project>
